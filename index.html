@@ -6,22 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./images.jpg">
     <title>Repository of Five</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>This is a backup repository</h1>
-    </header>
-    <main>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </main>
-    <footer>
-        Copyright@2023
-    </footer>
+    <form action="">
+        <h2 style="text-align: center;">This is Pitha Ghor Form Fill-uP</h2>
+        <hr>
+        <label for="name">Your Name:
+            <input id="name" type="text" name="name" placeholder="Enter Your Name">
+        </label>
+               
+        <label for="email">Your Email:
+            <input id="email" type="email" name="email" placeholder="Enter Your Email">
+        </label>
+
+        <fieldset>
+            <legend>Pic any one</legend>
+            <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy">
+                Pitha
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">
+                Vapa
+            </label>
+            <label for="Coconut">
+                <input type="radio" name="pitha" id="Coconut">
+                Coconut
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pic one or more vortas</legend>
+            <label for="Sorisha">
+                <input type="checkbox" name="vortas" id="Sorisha">
+                Sorisha
+            </label>
+            <label for="Shutki">
+                <input type="checkbox" name="vortas" id="Shutki">
+                Shutki
+            </label>
+            <label for="dal">
+                <input type="checkbox" name="vortas" id="dal">
+                Dal
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Please Comments Pitha tasty</legend>
+            <label for="tasty">
+                <textarea name="tasty" id="tasty" cols="60" rows="4"></textarea>
+            </label>
+        </fieldset>
+
+        <input type="reset" name="Reset" style="margin-top:10px;">
+        <input type="submit" name="submit" value="Submit">
+        
+    </form>
 </body>
 </html>
